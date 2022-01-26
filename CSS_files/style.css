@@ -1,0 +1,77 @@
+@font-face{
+	font-family:'TT';
+	src: url('fonts/TT Commons Black .otf');
+	font-style: normal;
+	font-weight: 100;
+}
+#img2{
+	width:500px;
+	vertical-align: middle;
+	margin-top: 10%;
+}
+header{
+	margin-left:4%;
+	margin-bottom:3%;
+	margin-top:1.75%;
+	background-color:#f8f4f0;
+}
+#nadpis{
+	color:darkblue;
+	font-size:150%;
+	font-weight: bold;
+}
+#lorem{
+	font-size:65%;
+	margin-top: 3%;
+	font:Helvetica;
+}
+
+.container{
+	margin-left: 4%;
+	margin-right: 10%;
+	margin-bottom: 20%;
+	align-items: start;
+	display: flex;
+	background-color: white;
+	border-radius: 20px;
+}
+.container_media{
+	margin-top:2%;
+	margin-right: 0.5%;
+	margin-bottom: 5%;
+	margin-left:5.5%;
+	width:50%; 
+	font-family: TT;
+	font-weight: 100;
+}
+}
+.container_content{
+	flex: 1;
+}
+body{
+	background-color:#f8f4f0; 
+}
+.text2{
+	font-family:helvetica;
+}
+.top{
+	padding-right: 2%;
+	padding-left: 2%;
+	color:darkblue;
+	font-family: helvetica;
+	font-size: 80%;
+	font-weight: bold;
+}
+button{
+	border-radius: 10px;
+	margin-right: 10%;
+	margin-left: 4%;
+	padding-left: 2%;
+	padding-right: 2%;
+	background-color:#f8f4f0;
+	border-color: darkblue;
+}
+button:hover {
+	background:darkblue;
+	color:white;
+}
